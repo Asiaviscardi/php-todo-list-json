@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.container div{
+    width: 80%;
+    background-color: pink;
+}
