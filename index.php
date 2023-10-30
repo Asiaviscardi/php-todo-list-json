@@ -24,10 +24,19 @@
     <h1>Todo List</h1>
 
     <div class = "container">
-        <div>
-            tasks
-        </div>
+        
+        <ul>
+
+            <li>tasks</li>
+            
+        </ul>
+
+        <input class = "testo" type="text" placeholder = "inserisci un nuovo to do:">
+
+        <input class = "invio" type="submit" value="inserisci">
+
     </div>
+
 
 
     

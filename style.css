@@ -13,10 +13,24 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: cyan;
+    flex-wrap: wrap;
 }
 
-.container div{
+.container ul{
     width: 80%;
-    background-color: pink;
+}
+
+.testo{
+    width: 70%;
+    padding: 10px;
+}
+
+.invio{
+    width: 10%;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: azure;
+    cursor: pointer;
 }
